@@ -13,7 +13,7 @@
             line-height: 1.3;
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%;
-            https: //demo.websolutionus.com/skillgro/
+            https: //demo.TechNova.com/skillgro/
         }
 
         table {

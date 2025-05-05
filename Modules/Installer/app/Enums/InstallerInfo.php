@@ -12,10 +12,10 @@ enum InstallerInfo: string
     const DUMMY_DATABASE_PATH = 'database/backup/dummy_database.sql';
     const FRESH_DATABASE_PATH = 'database/backup/fresh_database.sql';
     case LICENSE_FILE_PATH = 'app/license.json';
-    case VERIFICATION_URL = 'https://pcv.websolutionus.com/api/v1/validate';
-    case VERIFICATION_HASHED_URL = 'https://pcv.websolutionus.com/api/v1/validate/code';
-    case UPDATE_CHECK_URL = 'https://pcv.websolutionus.com/api/v1/updateable';
-    case ITEM_ID = '55390433';
+    case VERIFICATION_URL = '';//'https://pcv.TechNova.com/api/v1/validate';
+    case VERIFICATION_HASHED_URL = '';//'https://pcv.TechNova.com/api/v1/validate/code';
+    case UPDATE_CHECK_URL = '';//'https://pcv.TechNova.com/api/v1/updateable';
+    case ITEM_ID = '';//'55390433';
 
     public static function getDummyDatabaseFilePath(): string
     {

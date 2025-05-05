@@ -1,6 +1,6 @@
 ## Installation Process
 
-- Clone this repo `git clone git@github.com:websolutionus/wsus_laravel_global_setup.git`
+- Clone this repo `git clone git@github.com:TechNova/wsus_laravel_global_setup.git`
 - Change Directory to `cd wsus_laravel_global_setup`
 - Create a database in your database server
 - Copy the .env.example file Windows: `copy .env.example .env` Linux: `cp .env.example .env`

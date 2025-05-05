@@ -16,7 +16,7 @@ class GlobalSettingInfoSeeder extends Seeder
 
         $setting_data = [
             'home_theme' => 'all',
-            'app_name' => 'WebSolutionUs',
+            'app_name' => 'TechNova',
             'version' => '1.2.0',
             'admin_logo' => 'uploads/website-images/admin_logo.png',
             'logo' => 'uploads/website-images/logo.png',
@@ -62,7 +62,7 @@ class GlobalSettingInfoSeeder extends Seeder
             'mail_password' => '266052f6bf04bf',
             'mail_port' => '2525',
             'mail_encryption' => 'tls',
-            'mail_sender_name' => 'WebSolutionUs',
+            'mail_sender_name' => 'TechNova',
             'contact_message_receiver_mail' => 'receiver@gmail.com',
             'pusher_app_id' => 'pusher_app_id',
             'pusher_app_key' => 'pusher_app_key',

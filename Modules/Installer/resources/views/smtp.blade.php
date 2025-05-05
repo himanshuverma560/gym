@@ -55,8 +55,8 @@
             </form>
         </div>
         <div class="card-footer text-center">
-            <p>For script support, contact us at <a href="https://websolutionus.com/page/support"
-                target="_blank" rel="noopener noreferrer">@websolutionus</a>. We're here to help. Thank you!</p>
+            <p>For script support, contact us at <a href="https://TechNova.com/page/support"
+                target="_blank" rel="noopener noreferrer">@TechNova</a>. We're here to help. Thank you!</p>
         </div>
     </div>
     <!-- Skip Modal -->

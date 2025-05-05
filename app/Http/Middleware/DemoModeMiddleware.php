@@ -47,7 +47,6 @@ class DemoModeMiddleware
                 'message' => __('In Demo Mode you can not perform this action'),
             ]);
         }
-        //dd("i am here in demo");
         return $next($request);
     }
 }
