@@ -45,7 +45,24 @@
         @else
             @if ($setting->home_theme == 'all')
                 <li class="nav-item">
-                    <a class="nav-link" href="/">{{ $menu['label'] }}</a>
+                    <a class="nav-link" href="javascript:;">{{ $menu['label'] }} <i class="far fa-chevron-down"></i></a>Add commentMore actions
+                    <ul class="wsus__droap_menu">
+                        @php
+                            $theme = [
+                                'theme 1' => 'theme=1',
+                                'theme 2' => 'theme=2',
+                                'theme 3' => 'theme=3',
+                                'dark theme' => 'theme=4',
+                            ];
+                        @endphp
+                        @foreach ($theme as $key => $value)
+                            <li>
+                                <a class="{{ 'theme=' . cache('selected_theme') == $value ? 'active' : '' }}"
+                                    aria-current="page"
+                                    href="{{ url('/') }}?{{ $value }}">{{ $key }}</a>
+                            </li>
+                        @endforeach
+                    </ul>
                     
                 </li>
             @else
