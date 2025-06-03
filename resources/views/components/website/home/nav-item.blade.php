@@ -39,7 +39,7 @@
     @else
         @if ($currLink != '')
             <li class="nav-item">
-                <a href="/" class="nav-link {{ $isActive ? 'active' : '' }}" aria-current="page"
+                <a class="nav-link {{ $isActive ? 'active' : '' }}" aria-current="page"
                     href="{{ url($link) }}">{{ $menu['label'] }}</a>
             </li>
         @else
